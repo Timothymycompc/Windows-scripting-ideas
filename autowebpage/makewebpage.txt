@@ -1,0 +1,87 @@
+
+ECHO " <!DOCTYPE html>" >> info.HTML
+ECHO " <html>" >> info.HTML
+ECHO " <body>" >> info.HTML
+
+ECHO " <h2>%model% info</h2>" >> info.HTML
+ECHO " <table style="width:100%">" >> info.HTML
+
+ECHO " <td></td>" >> info.HTML
+ECHO " <tr>" >> info.HTML
+ECHO " </tr>" >> info.HTML
+ECHO " <td></td>" >> info.HTML
+
+ECHO "   <tr>" >> info.HTML
+ECHO "     <th></th>" >> info.HTML
+ECHO "     <th></th>" >> info.HTML
+ECHO "   </tr>" >> info.HTML
+
+ECHO " <td></td>" >> info.HTML
+ECHO " <tr>" >> info.HTML
+ECHO " </tr>" >> info.HTML
+ECHO " <td></td>" >> info.HTML
+
+ECHO "<tr>" >> info.HTML
+ECHO "<td>Serial:</td>" >> info.HTML
+ECHO "<td>%serial%</td>" >> info.HTML
+ECHO "<td></td>" >> info.HTML
+ECHO "</tr>" >> info.HTML
+
+ECHO " <td></td>" >> info.HTML
+ECHO " <tr>" >> info.HTML
+ECHO " </tr>" >> info.HTML
+ECHO " <td></td>" >> info.HTML
+
+ECHO "<tr>" >> info.HTML
+ECHO "<td>HardDriveSize:</td>" >> info.HTML
+ECHO "<td>%HDSIZE%</td>" >> info.HTML
+ECHO "<td></td>" >> info.HTML
+ECHO "</tr>" >> info.HTML
+
+ECHO " <td></td>" >> info.HTML
+ECHO " <tr>" >> info.HTML
+ECHO " </tr>" >> info.HTML
+ECHO " <td></td>" >> info.HTML
+
+ECHO "<tr>" >> info.HTML
+ECHO "<td>Cpu:</td>" >> info.HTML
+ECHO "<td>%cpu%</td>" >> info.HTML
+ECHO "<td></td>" >> info.HTML
+ECHO "</tr>" >> info.HTML
+
+ECHO " <td></td>" >> info.HTML
+ECHO " <tr>" >> info.HTML
+ECHO " </tr>" >> info.HTML
+ECHO " <td></td>" >> info.HTML
+
+ECHO "<tr>" >> info.HTML
+ECHO "<td>Model:</td>" >> info.HTML
+ECHO "<td>%model%</td>" >> info.HTML
+ECHO "<td></td>" >> info.HTML
+ECHO "</tr>" >> info.HTML
+
+ECHO " <td></td>" >> info.HTML
+ECHO " <tr>" >> info.HTML
+ECHO " </tr>" >> info.HTML
+ECHO " <td></td>" >> info.HTML
+
+ECHO "<tr>" >> info.HTML
+ECHO "<td>Memory:</td>" >> info.HTML
+ECHO "<td>%mem%</td>" >> info.HTML
+ECHO "<td></td>" >> info.HTML
+ECHO "</tr>" >> info.HTML
+
+ECHO " <td></td>" >> info.HTML
+ECHO " <tr>" >> info.HTML
+ECHO " </tr>" >> info.HTML
+ECHO " <td></td>" >> info.HTML
+
+ECHO " <td></td>" >> info.HTML
+ECHO " <tr>" >> info.HTML
+ECHO " </tr>" >> info.HTML
+ECHO " <td></td>" >> info.HTML
+
+ECHO " </table>" >> info.HTML
+ECHO " </body>" >> info.HTML
+ECHO " </html>" >> info.HTML
+
